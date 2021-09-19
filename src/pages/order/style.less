@@ -1,0 +1,26 @@
+.v2board-trade-no {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.v2board-order-info > div {
+  display: flex;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.v2board-order-info > div > span:first-child {
+  flex: 1 1;
+  opacity: 0.5;
+}
+
+.v2board-order-info > div > span:last-child {
+  flex: 2 1;
+  font-family: menlo;
+}
+
+a[disabled] {
+  cursor: not-allowed;
+  pointer-events: none;
+}
